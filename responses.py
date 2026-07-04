@@ -1,0 +1,235 @@
+"""
+responses.py
+
+This file contains all the predefined responses
+used by the Rule-Based AI Chatbot.
+"""
+
+responses = {
+
+    # =========================
+    # Greetings
+    # =========================
+    "hello": "Hello! How can I help you today?",
+    "hi": "Hi! Nice to meet you.",
+    "hey": "Hey! How can I assist you today?",
+    "good morning": "Good morning! Have a wonderful day!",
+    "good afternoon": "Good afternoon! How can I help you?",
+    "good evening": "Good evening! Hope you're doing well!",
+    "good night": "Good night! Sleep well.",
+    "howdy": "Howdy! What can I do for you today?",
+    "greetings": "Greetings! It's nice to chat with you.",
+    "nice to meet you": "Nice to meet you too! How may I assist you?",
+    "what's up": "Not much! I'm here and ready to help.",
+    "how is it going": "Everything is going smoothly. How can I help you today?",
+
+    # =========================
+    # Basic Conversation (10)
+    # =========================
+    "how are you": "I'm doing great! Thanks for asking.",
+    "what is your name": "My name is Rule-Based AI Chatbot.",
+    "who are you": "I'm a simple rule-based chatbot built using Python.",
+    "who created you": "I was created as part of the DecodeLabs Artificial Intelligence Internship.",
+    "where are you from": "I live inside your computer as a Python program.",
+    "what can you do": "I can answer predefined questions and have simple conversations.",
+    "can you help me": "Of course! Ask me a question and I'll do my best to answer.",
+    "help": "You can ask me about AI, Python, Programming, Technology, Mathematics and more.",
+    "are you human": "No. I'm a rule-based computer program.",
+    "how old are you": "I don't have an age like humans. I exist as long as this program runs.",
+
+    # =========================
+    # Personal Questions
+    # =========================
+    "what is your favorite color": "As a chatbot, I don't have a favorite color, but I think every color is beautiful.",
+    "what is your favorite food": "I don't eat food, but pizza is a popular choice among humans.",
+    "what is your favorite drink": "I don't drink anything, but water is essential for humans.",
+    "what is your favorite fruit": "I don't eat fruits, but apples and mangoes are great choices.",
+    "what is your favorite vegetable": "I don't eat vegetables, but they are important for good health.",
+    "what is your favorite movie": "I don't watch movies, but science fiction movies are fascinating.",
+    "what is your favorite song": "I don't listen to music, but many people enjoy relaxing songs.",
+    "what is your favorite singer": "I don't have personal preferences, but there are many talented singers.",
+    "what is your favorite actor": "I don't watch movies, so I don't have a favorite actor.",
+    "what is your favorite actress": "I don't watch movies, so I don't have a favorite actress.",
+    "what is your favorite sport": "I don't play sports, but football and cricket are very popular.",
+    "what is your favorite game": "I don't play games, but chess is an interesting strategy game.",
+    "what is your favorite programming language": "Python is one of the most popular programming languages because it is simple and powerful.",
+    "what is your favorite subject": "I enjoy topics related to Artificial Intelligence and Computer Science.",
+    "what is your favorite book": "I don't read books like humans, but programming books are very useful.",
+    "what is your favorite animal": "I like all animals equally because they are amazing in their own ways.",
+    "what is your favorite season": "Every season has its own beauty.",
+    "what is your favorite place": "I don't travel, but I exist wherever this program runs.",
+    "what is your hobby": "Helping users and answering questions is my favorite activity.",
+    "what do you like": "I like helping people learn new things.",
+    "what do you dislike": "I don't like confusing or misleading information.",
+    "do you like music": "I don't listen to music, but many people enjoy it.",
+    "do you like movies": "I don't watch movies, but I can chat about them.",
+    "do you like reading": "I process information instead of reading books like humans.",
+    "do you like coding": "Yes! Programming is one of the things I was built for.",
+
+    # =========================
+    # Time & Date
+    # =========================
+    "what time is it": "Sorry, I can't tell the current time.",
+    "what is today's date": "Sorry, I can't access today's date.",
+
+    # =========================
+    # AI & Machine Learning
+    # =========================
+    "what is ai": "Artificial Intelligence is the simulation of human intelligence by machines.",
+  "what does ai stand for": "AI stands for Artificial Intelligence.",
+  "what is artificial intelligence": "Artificial Intelligence enables computers to perform tasks that normally require human intelligence.",
+  "why is ai important": "AI helps automate tasks, improve efficiency, and solve complex problems.",
+  "where is ai used": "AI is used in healthcare, education, finance, transportation, gaming, and many other industries.",
+  "what are the applications of ai": "AI is used in chatbots, recommendation systems, self-driving cars, robotics, medical diagnosis, and virtual assistants.",
+  "what is machine learning": "Machine Learning is a branch of AI that allows computers to learn from data without being explicitly programmed.",
+  "what is deep learning": "Deep Learning is a subset of Machine Learning that uses neural networks with multiple layers.",
+  "what is neural network": "A neural network is a computational model inspired by the structure of the human brain.",
+  "what is data": "Data is a collection of facts, numbers, or information that can be processed.",
+  "what is dataset": "A dataset is a structured collection of related data used for analysis or training AI models.",
+  "what is training data": "Training data is the information used to teach a machine learning model.",
+  "what is testing data": "Testing data is used to evaluate the performance of a trained machine learning model.",
+  "what is supervised learning": "Supervised Learning uses labeled data to train machine learning models.",
+  "what is unsupervised learning": "Unsupervised Learning finds hidden patterns in data without labeled outputs.",
+  "what is reinforcement learning": "Reinforcement Learning trains an agent by rewarding correct actions and penalizing incorrect ones.",
+  "what is generative ai": "Generative AI creates new content such as text, images, music, or code.",
+  "what is chatbot": "A chatbot is a computer program that simulates conversations with users.",
+  "what is rule based ai": "Rule-Based AI follows predefined rules instead of learning from data.",
+  "what is predictive ai": "Predictive AI analyzes historical data to predict future outcomes.",
+  "what is computer vision": "Computer Vision enables computers to understand and analyze images and videos.",
+  "what is natural language processing": "Natural Language Processing, or NLP, helps computers understand human language.",
+  "what is speech recognition": "Speech Recognition converts spoken language into text.",
+  "what is expert system": "An Expert System is an AI program that mimics the decision-making ability of a human expert.",
+  "what is automation": "Automation is the use of technology to perform tasks with minimal human intervention.",
+  "what is an ai model": "An AI model is a program trained to perform specific intelligent tasks.",
+  "what is an algorithm": "An algorithm is a step-by-step procedure used to solve a problem.",
+  "what is a feature in machine learning": "A feature is an individual measurable property used to train a machine learning model.",
+  "what is classification": "Classification is a machine learning task that predicts categories or labels.",
+  "what is regression": "Regression predicts continuous numerical values using machine learning.",
+  "what is clustering": "Clustering groups similar data points without predefined labels.",
+  "what is overfitting": "Overfitting occurs when a model learns the training data too well and performs poorly on new data.",
+  "what is underfitting": "Underfitting occurs when a model fails to learn important patterns from the training data.",
+  "what is model accuracy": "Accuracy measures how often a machine learning model makes correct predictions.",
+  "what is precision": "Precision measures how many predicted positive results are actually correct.",
+  "what is recall": "Recall measures how many actual positive cases are correctly identified.",
+  "what is f1 score": "The F1 Score combines precision and recall into a single performance metric.",
+  "what is confusion matrix": "A confusion matrix is a table used to evaluate classification models.",
+  "what is cross validation": "Cross validation evaluates a model using multiple subsets of the dataset.",
+  "what is feature engineering": "Feature engineering is the process of selecting and transforming data for machine learning.",
+  "what is data preprocessing": "Data preprocessing cleans and prepares raw data before model training.",
+  "what is data cleaning": "Data cleaning removes errors, duplicates, and missing values from data.",
+  "what is normalization": "Normalization scales data to a common range for better model performance.",
+  "what is standardization": "Standardization transforms data so it has a mean of zero and a standard deviation of one.",
+  "what is ai ethics": "AI ethics focuses on developing AI systems that are fair, transparent, and responsible.",
+  "what is responsible ai": "Responsible AI ensures AI systems are safe, unbiased, and accountable.",
+  "what is explainable ai": "Explainable AI helps humans understand how AI systems make decisions.",
+  "what is ai bias": "AI bias occurs when an AI system produces unfair or prejudiced results.",
+  "what is prompt engineering": "Prompt engineering is the practice of writing effective instructions for AI models.",
+  "what is ai hallucination": "AI hallucination occurs when an AI model generates incorrect or fabricated information with confidence.",
+  "what is chatgpt": "ChatGPT is an AI chatbot developed by OpenAI that can understand and generate human-like text.",
+  "who developed chatgpt": "ChatGPT was developed by OpenAI.",
+  "what is openai": "OpenAI is an AI research and deployment company that develops advanced AI models.",
+  "what is gemini": "Gemini is Google's family of Artificial Intelligence models.",
+  "who developed gemini": "Gemini was developed by Google.",
+  "what is copilot": "GitHub Copilot is an AI coding assistant developed by GitHub and OpenAI.",
+  "what is github copilot": "GitHub Copilot helps developers write code faster using AI.",
+  "what is llm": "LLM stands for Large Language Model.",
+  "what is large language model": "A Large Language Model is an AI model trained on massive amounts of text to understand and generate language.",
+  "what is transformer model": "A Transformer is a deep learning architecture widely used in modern AI models.",
+  "what is gpt": "GPT stands for Generative Pre-trained Transformer.",
+  "what is generative pre trained transformer": "It is a language model architecture designed to generate human-like text.",
+  "what is prompt": "A prompt is the instruction or question given to an AI model.",
+  "why are prompts important": "Prompts guide the AI to produce relevant and useful responses.",
+  "what is token in ai": "A token is a small unit of text processed by AI models.",
+  "what is inference": "Inference is the process of using a trained AI model to make predictions or generate responses.",
+  "what is model training": "Model training is the process of teaching an AI model using large amounts of data.",
+  "what is fine tuning": "Fine-tuning is the process of improving a pre-trained model using task-specific data.",
+  "what is pretrained model": "A pretrained model has already been trained on a large dataset before being reused.",
+  "what is gpu": "A GPU is a Graphics Processing Unit commonly used to accelerate AI computations.",
+  "why do ai models use gpus": "GPUs can process many calculations simultaneously, making AI training much faster.",
+  "what is tensorflow": "TensorFlow is an open-source machine learning framework developed by Google.",
+  "what is pytorch": "PyTorch is an open-source deep learning framework developed by Meta.",
+  "what is keras": "Keras is a high-level deep learning library that simplifies building neural networks.",
+  "what is hugging face": "Hugging Face is a platform that provides open-source AI models, datasets, and tools.",
+  "what is robotics": "Robotics is the field of designing, building, and programming robots.",
+  "what is a robot": "A robot is a machine capable of carrying out tasks automatically.",
+  "can robots use ai": "Yes. Many modern robots use Artificial Intelligence to make decisions.",
+  "what is autonomous vehicle": "An autonomous vehicle is a vehicle that can operate without human intervention using AI and sensors.",
+  "what is self driving car": "A self-driving car uses AI, cameras, sensors, and GPS to navigate roads automatically.",
+  "what is recommendation system": "A recommendation system suggests products, movies, music, or other content based on user preferences.",
+  "where are recommendation systems used": "Recommendation systems are used by Netflix, YouTube, Amazon, Spotify, and many other platforms.",
+  "what is virtual assistant": "A virtual assistant is an AI-powered application that helps users perform tasks through voice or text commands.",
+  "give examples of virtual assistants": "Examples include Siri, Alexa, Google Assistant, and ChatGPT.",
+  "how is ai used in healthcare": "AI helps doctors with disease detection, medical imaging, drug discovery, and patient monitoring.",
+  "how is ai used in education": "AI provides personalized learning, automated grading, virtual tutors, and intelligent educational tools.",
+  "how is ai used in banking": "AI is used for fraud detection, customer support, risk analysis, and financial forecasting.",
+  "how is ai used in agriculture": "AI helps monitor crops, detect diseases, predict weather, and improve farming efficiency.",
+  "how is ai used in gaming": "AI controls non-player characters, improves game difficulty, and enhances player experiences.",
+  "what are the advantages of ai": "AI improves efficiency, reduces errors, automates repetitive tasks, and analyzes large amounts of data quickly.",
+  "what are the disadvantages of ai": "AI can be expensive, may introduce bias, reduce certain jobs, and depends heavily on quality data.",
+  "what are the limitations of ai": "AI cannot think, feel emotions, or make decisions beyond its programming and training.",
+  "can ai replace humans": "AI can automate some tasks, but it cannot completely replace human creativity, emotions, and judgment.",
+  "what is the future of ai": "The future of AI includes smarter automation, healthcare improvements, robotics, education, and scientific research.",
+  "is ai dangerous": "AI can be risky if used irresponsibly, which is why ethical AI development is important.",
+  "what is ai safety": "AI safety focuses on building AI systems that are reliable, secure, and beneficial to society.",
+  "why is ai regulation important": "AI regulation helps ensure AI systems are used fairly, safely, and responsibly.",
+  "can ai make mistakes": "Yes. AI systems can make mistakes if they are trained on poor-quality data or receive unclear instructions.",
+  "will ai continue to improve": "Yes. AI technology continues to improve through research, better algorithms, and larger datasets.",
+  "should i learn ai": "Yes! Learning AI is a valuable skill because it is transforming many industries and creating exciting career opportunities.",
+
+    # =========================
+    # Courtesy
+    # =========================
+    "thanks" : "You're welcome!",
+    "thank you": "Happy to help!",
+    "thank you so much": "You're most welcome!",
+    "great": "I'm glad you liked it!",
+    "awesome": "That's wonderful!",
+    "nice": "Thank you!",
+    "good job": "Thank you! I appreciate your kind words.",
+
+   # =========================
+   # Programming
+   # =========================
+    "what is programming": "Programming is the process of writing instructions that tell a computer what to do.",
+    "what is a program": "A program is a set of instructions written to perform a specific task.",
+    "what is a programming language": "A programming language is a language used to communicate instructions to a computer.",
+    "why do we need programming": "Programming allows us to create software, websites, mobile apps, games, and automation tools.",
+    "what are the types of programming languages": "Programming languages include procedural, object-oriented, functional, and scripting languages.",
+    "what is source code": "Source code is the human-readable code written by a programmer.",
+    "what is machine code": "Machine code consists of binary instructions directly understood by the computer's processor.",
+    "what is compiler": "A compiler converts the entire source code into machine code before execution.",
+    "what is interpreter": "An interpreter executes source code line by line without creating a separate executable file.",
+    "what is debugging": "Debugging is the process of finding and fixing errors in a program.",
+    "what is syntax": "Syntax refers to the rules that define the correct structure of a programming language.",
+    "what is syntax error": "A syntax error occurs when the code violates the rules of the programming language.",
+    "what is logical error": "A logical error occurs when a program runs successfully but produces incorrect results.",
+    "what is runtime error": "A runtime error occurs while the program is executing.",
+    "what is algorithm": "An algorithm is a step-by-step procedure for solving a problem.",
+    "what is flowchart": "A flowchart is a graphical representation of an algorithm.",
+    "what is pseudocode": "Pseudocode is an informal way of describing program logic without using a specific programming language.",
+    "what is variable": "A variable is a named memory location used to store data.",
+    "what is constant": "A constant is a value that does not change during program execution.",
+    "what is identifier": "An identifier is the name given to variables, functions, classes, or other programming elements.",
+    "what are keywords": "Keywords are reserved words in a programming language with predefined meanings.",
+    "what is data type": "A data type defines the type of value a variable can store.",
+    "what are primitive data types": "Primitive data types include integers, floating-point numbers, characters, and booleans.",
+    "what is memory": "Memory is the storage area where data and instructions are kept during program execution.",
+    "what is software": "Software is a collection of programs and related data that enable a computer to perform tasks.",
+
+    # =========================
+    # Internship Questions
+    # =========================
+    "what project is this": "This is Project 1: Rule-Based AI Chatbot.",
+    "what internship is this": "This project is part of the DecodeLabs Artificial Intelligence Internship.",
+    "what are you made with": "I am built using Python and rule-based logic.",
+    "what is rule based ai": "Rule-Based AI follows predefined rules to generate responses without learning from data.",
+
+    # =========================
+    # Exit Commands
+    # =========================
+    "bye": "Goodbye! Have a great day!",
+    "goodbye": "Goodbye! Take care!",
+    "exit": "Goodbye! Have a great day!",
+    "quit": "Goodbye! See you again!",
+    "see you": "See you later! Have a wonderful day!"
+}
